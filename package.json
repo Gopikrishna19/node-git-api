@@ -13,5 +13,8 @@
     "node": ">=6"
   },
   "author": "Gopikrishna Sathyamurthy",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^6.2.0"
+  }
 }
