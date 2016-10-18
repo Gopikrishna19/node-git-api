@@ -3,9 +3,8 @@
   "version": "0.0.0",
   "description": "A node based git api",
   "bin": {
-    "node-git": "./cli.js"
+    "node-git": "./index.js"
   },
-  "main": "./index.js",
   "keywords": [
     "node",
     "git"
