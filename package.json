@@ -2,7 +2,10 @@
   "name": "node-git-api",
   "version": "0.0.0",
   "description": "A node based git api",
-  "bin": "./index.js",
+  "bin": {
+    "node-git": "./cli.js"
+  },
+  "main": "./index.js",
   "keywords": [
     "node",
     "git"
