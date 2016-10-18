@@ -9,6 +9,9 @@
     "node",
     "git"
   ],
+  "engines": {
+    "node": ">=6"
+  },
   "author": "Gopikrishna Sathyamurthy",
   "license": "ISC"
 }
