@@ -1,0 +1,139 @@
+{
+  "env": {
+    "es6": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "arrow-body-style": [
+      2,
+      "as-needed"
+    ],
+    "arrow-parens": [
+      2,
+      "as-needed"
+    ],
+    "brace-style": [
+      2,
+      "1tbs",
+      {
+        "allowSingleLine": true
+      }
+    ],
+    "comma-dangle": 2,
+    "curly": 2,
+    "eol-last": 2,
+    "eqeqeq": 2,
+    "jsx-quotes": [
+      2,
+      "prefer-single"
+    ],
+    "new-cap": 2,
+    "newline-after-var": 2,
+    "newline-before-return": 2,
+    "no-console": 2,
+    "no-constant-condition": 2,
+    "no-debugger": 2,
+    "no-dupe-args": 2,
+    "no-dupe-class-members": 2,
+    "no-dupe-keys": 2,
+    "no-empty": [
+      2,
+      {
+        "allowEmptyCatch": true
+      }
+    ],
+    "no-extra-semi": 2,
+    "no-implicit-globals": 2,
+    "no-invalid-this": 2,
+    "no-unused-expressions": 2,
+    "no-unused-vars": 2,
+    "no-trailing-spaces": 2,
+    "no-var": 2,
+    "object-shorthand": 2,
+    "one-var": [
+      2,
+      {
+        "let": "always",
+        "const": "never"
+      }
+    ],
+    "padded-blocks": [
+      2,
+      "never"
+    ],
+    "quote-props": [
+      2,
+      "as-needed"
+    ],
+    "quotes": [
+      2,
+      "single"
+    ],
+    "prefer-arrow-callback": 2,
+    "prefer-const": 2,
+    "prefer-template": 2,
+    "semi": 2,
+    "sort-imports": [
+      2,
+      {
+        "memberSyntaxSortOrder": [
+          "multiple",
+          "single",
+          "all",
+          "none"
+        ]
+      }
+    ],
+    "sort-keys": [
+      2,
+      "asc",
+      {
+        "natural": true
+      }
+    ],
+    "sort-vars": 2,
+    "react/display-name": 2,
+    "react/jsx-closing-bracket-location": [
+      2,
+      "line-aligned"
+    ],
+    "react/jsx-indent": [
+      2,
+      2
+    ],
+    "react/jsx-indent-props": [
+      2,
+      2
+    ],
+    "react/jsx-max-props-per-line": [
+      2,
+      {
+        "maximum": 1
+      }
+    ],
+    "react/jsx-sort-props": 2,
+    "react/jsx-space-before-closing": [
+      2,
+      "never"
+    ],
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2,
+    "react/prefer-es6-class": 2,
+    "react/prefer-stateless-function": 2,
+    "react/prop-types": 2,
+    "react/react-in-jsx-scope": 2,
+    "react/require-render-return": 2,
+    "react/self-closing-comp": 2,
+    "react/sort-comp": 2,
+    "react/sort-prop-types": 2
+  }
+}
