@@ -39,7 +39,6 @@
     "new-cap": 2,
     "newline-after-var": 2,
     "newline-before-return": 2,
-    "no-console": 2,
     "no-constant-condition": 2,
     "no-debugger": 2,
     "no-dupe-args": 2,

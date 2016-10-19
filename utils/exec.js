@@ -1,7 +1,5 @@
 const exec = require('child_process').exec;
 
-/* eslint-disable no-console */
-
 module.exports = (cmd, callback = () => {}) =>
   exec(cmd, (err, stdout, stderr) => {
     if (err) {
