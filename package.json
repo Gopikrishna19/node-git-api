@@ -1,6 +1,6 @@
 {
   "name": "node-git-api",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A node based git api",
   "bin": {
     "node-git": "./index.js"
